@@ -25,6 +25,7 @@ while (count < listaSpesa.length) {
     li.innerText = listaSpesa[count];
 
     // - aggancio alla ul gli li creati con append
+    // - stampo sulla pagina il risultato
 
     ul.append(li);
     
@@ -40,4 +41,3 @@ console.log(`la lista della spesa ha ${count} prodotti da acquistare`);
 
 
 
-// - stampo sulla pagina il risultato
